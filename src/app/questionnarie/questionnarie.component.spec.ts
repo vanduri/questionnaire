@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { QuestionnarieComponent } from './questionnarie.component';
+
+describe('QuestionnarieComponent', () => {
+  let component: QuestionnarieComponent;
+  let fixture: ComponentFixture<QuestionnarieComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ QuestionnarieComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(QuestionnarieComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
